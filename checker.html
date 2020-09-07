@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head> 
+<meta name="viewport"  content="width=device-width, initial-scale=1">   
+<title>Symptom Checker </title>
+<link rel="stylesheet" type="text/css" href="checker.css"> 
+</head> 
+<body>
+  
+    
+    <h1>Symptom Checker </h1>
+
+    <form class="quiz-form" action=" " method="GET" >
+        <p>Please fill this form to check symptoms </p>
+        <div class="wrapper">
+         <label for="yes_no_radio">Traveled to an area of high-risk for COVID-19 ?</label>
+          <p>
+          <input type="radio" name="q1" value="yes" checked>Yes
+          </p>
+          <p>
+          <input type="radio" name="q1" value="No" checked>No
+          </p>
+          
+          <label class="questions" for="yes_no_radio">Have you been around someone who is known to have COVID-19?</label>
+          <p>
+          <input type="radio" name="q2" value="yes " checked>Yes
+          </p>
+          <p>
+          <input type="radio" name="q2" value="no" checked>No
+          </p>
+
+          <p class="questions">Do you have any of these ? </p>
+          <ul>
+            <li>Fatigue</li>
+              <li>Body Aches</li>
+              <li>Fever</li>
+              <li> Cough</li>
+              <li>Sorethroat</li>
+              <li>Loss of taste or smell<</li>
+          </ul>
+          <input type="radio" name="q3" value="yes" checked>Yes
+          </p>
+          <p>
+          <input type="radio" name="q3" value="no" checked >No 
+          </p>
+         
+
+          <label class="questions" for="yes_no_radio">Are you feeling mild to moderate shortness of breath or mild to moderate difficulty breathing?</label>
+          <p>
+          <input type="radio" name="q4" value="yes" checked>Yes
+          </p>
+          <p>
+          <input type="radio" name="q4" value="no" checked >No
+
+          <p class="questions">Are you experiencing symptoms that feel like a life-threatening medical emergency? For example</p>
+          <ul>
+              <li> Severe shortness of breath and difficulty breathing</li>
+              <li>Crushing chest pain</li>
+              <li>Loss of consciousness</li>
+              <li> Slurred speech</li>
+              <li>Gasping for air</li>
+              <li>Coughing up lots of blood<li>
+
+          </ul>
+          <input type="radio" name="q5" value="yes" checked>Yes
+        </p>
+        <p>
+        <input type="radio" name="q5" value="no "checked>No
+        </p>
+
+       
+
+          <label class="questions" for="yes_no_radio">Do you have a weakened immune system from a known cause?</label>
+          <p>
+          <input type="radio" name="q6" value="yes">Yes
+          </p>
+          <p>
+          <input type="radio" name="q6" value="no" >No<br><br>
+
+          <input  class="submit" type="submit" value="submit">
+      
+        
+        
+        </div>   
+    
+<script src="checker.js"></script>
+</body>
+</html>
